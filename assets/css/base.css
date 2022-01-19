@@ -6,6 +6,7 @@
     --height-header:120px;
     --height-navbar:34px;
     --height-header-with-search: calc(var(--height-header) - var(--height-navbar));
+    --height-sort-bar: 46px;
 }
 *{
     box-sizing: inherit;
@@ -15,14 +16,6 @@ html{
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-}
-.grid{
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-.grid__full-width{
-    width: 100%;
 }
 .grid__row{
     display: flex;
@@ -232,4 +225,7 @@ html{
     background-color: var(--primary-text);
     color: var(--white-color);
     border-radius: 2px;
+}
+.appear{
+    display: flex !important;
 }
